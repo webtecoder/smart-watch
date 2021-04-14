@@ -1,0 +1,271 @@
+ /* =====COMMON CSS ====*/
+ *{
+         box-sizing: border-box;
+         font-family: 'Roboto', sans-serif;
+ }
+ul{
+        margin: 0;
+        padding: 0;
+}
+ul li {
+        list-style: none;
+        display: inline-block;
+}
+ul li a{
+        text-decoration: none;
+}
+
+button{
+        color: white!important;
+        font-weight: 600;
+}
+button:hover{
+        border: 1px solid #fff;
+        border-radius: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+        font-weight: 500;
+        font-size: 50px;
+}
+p{
+        font-weight: 400;
+        font-size: 16px;
+}
+ /* =====COMMON CSS ====*/
+
+/* =====HEADER CSS START ====*/
+ .header {
+  --triangle-height: 200px; /* you can change this */
+  --mask: linear-gradient(#000, #000) 0 0/100% calc(100% - var(--triangle-height)) no-repeat, 
+          linear-gradient(to top right, transparent 49.5%, #000 50% 100%) 0 100%/50% var(--triangle-height) no-repeat, 
+          linear-gradient(to top left, transparent 49.5%, #000 50% 100%) 100% 100%/50% var(--triangle-height) no-repeat;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  width: 100%;
+  padding-bottom: 50px;
+  background: #29a5e8 50% 50%/cover;
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+        color: #fff!important;
+    }
+    .watch-content h1 {
+        color: #fff;
+        padding: 20px 0;
+    }
+ /* =====HEADER CSS END ====*/   
+
+/* =====APP CSS START ====*/ 
+.download_install:hover {
+  box-shadow: 0px 0px 5px 5px #888;
+            
+    }
+ .download_install h2 {
+        font-size: 24px;
+    }
+  /* =====APP CSS END ====*/   
+
+  /* =====HOW IT WORKS CSS START ====*/ 
+  .fa-quote-left:before {
+      
+        margin-left: px;
+    }
+
+    .person-content h3 {
+        font-size: 27px;
+    }
+    .person-content h6 {
+        font-size: 16px;
+        color: #c0c9d3;
+    }
+    i.fas.fa-arrow-left.fa-2x.slick-arrow {
+        position: absolute;
+        bottom: -84px;
+        right: 36%;
+        color: #2186eb;
+    }
+    i.fas.fa-arrow-right.fa-2x.slick-arrow {
+        position: absolute;
+        bottom: -84px;
+        left: 79%;
+        color: #2186eb;
+    }
+    
+   /* =====HOW IT WORKS CSS END ====*/ 
+
+/* =====VIDEO CSS CSS START ====*/ 
+.col-md-10.video-player {
+    position: relative;
+}
+
+img.img-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+.col-md-10.video-player {
+    position: relative;
+}
+/* .video-player:hover .overlay{
+    display: block;
+}
+.overlay {
+    position: absolute;
+    background: #2286eb;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    display: none;
+    
+} */
+
+/* =====VIDEO CSS CSS START ====*/ 
+
+ /* =====SMARTPHONE CSS START ====*/ 
+    .smartphone{
+           background-image: url(./img/app-landing-page-psd\ \(2\).png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 100px 0;
+            
+    }
+    
+    .form-input {
+        position: relative;
+    }
+    .form-control {
+        padding: 10px 30px;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 60px;
+        
+        
+    }
+    .input-control{
+        width: 35%;
+        margin: auto;
+    }
+    #button-addon2 {
+        position: absolute;
+        top: 9%;
+        right: 33%;
+    }
+    .btn {
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 20px;
+       
+    }
+    i.fas.fa-paper-plane.fa-2x.text-primary {
+        position: absolute;
+        top: 11px;
+        left: 361px;
+        z-index: 222;
+    }
+    
+    .future-content h4 {
+        font-size: 35px;
+    }
+    .future-content p {
+        font-size: 12px;
+    }
+    .social-icon ul li a {
+        padding: 0 10px;
+    }
+/* =====SMARTPHONE CSS END ====*/ 
+
+/* =====PRICING PLAN CSS START ====*/ 
+span.starter {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e6f6ff;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.color-text{
+    color: #7d92a8;
+}
+.pricing-color{
+    color: #627d98;
+    font-weight: bold;
+}
+.signup{
+    padding: 10px 30px;
+}
+hr:not([size]) {
+    width: 60%;
+    margin: auto;
+}
+.pricing-area:hover .pricing-content {
+    background: #2186eb;
+    box-shadow: 0px 6px 5px 8px #bedbf8;
+}
+.pricing-area:hover .notification p,.pricing-area:hover .pricing-color,.pricing-area:hover .dollor-content p,.pricing-area:hover h4{
+    color: #ffff!important;
+}
+.pricing-area:hover button{
+    background-color: #ffff;
+    color: orchid;
+}
+/* =====PRICING PLAN CSS END ====*/ 
+
+
+/* =====LATEST POSTS CSS START ====*/ 
+.google-map{
+    background-image: url(./img/map.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.latest-content h6 {
+    font-size: 20px;
+}
+.btn-outline-primary:hover {
+    color: white !important;
+}
+.btn.bg-white.text-primary.google-play {
+    border-radius: 10px;
+    font-size: 12px;
+}
+/* =====LATEST POSTS CSS END ====*/ 
+
+/* =====FOOTER CSS START ====*/ 
+    .selected-option{
+        color: #627d98;
+        font-size: 18px;
+        font-weight: normal;
+    }
+/* =====FOOTER CSS END ====*/ 
+
+/* CONTACT US STYLE START */
+.input-contact {
+    position: relative;
+}
+.plane-icon {
+    position: absolute;
+    top: 19px;
+    left: 14px;
+}
+/* CONTACT US STYLE END */
+
+
+/* FREEQUENTLY ASKED STYLE START */
+.accordion-button::after {
+    background-image: url(./img/right-angle.png);
+}
+
+
+/* FREEQUENTLY ASKED STYLE END */
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./img/right-angle.png);
+    transform: rotate(90deg);
+}
