@@ -2,6 +2,7 @@
  *{
          box-sizing: border-box;
          font-family: 'Roboto', sans-serif;
+         /* overflow-x: hidden; */
  }
 ul{
         margin: 0;
@@ -57,8 +58,26 @@ p{
  /* =====HEADER CSS END ====*/   
 
 /* =====APP CSS START ====*/ 
+.app-area {
+    background: #faf9fd;
+}
+.bg-1{
+    background-image: url(./img/bg-1.png);
+}
+.bg-2{
+    background-image: url(./img/bg-2.png);
+}
+.bg-3{
+    background-image: url(./img/bg-3.png);
+}
+.bg {
+    background-repeat: no-repeat;
+    background-position: 76px -26px;
+    background-size: 77px;
+}
 .download_install:hover {
-  box-shadow: 0px 0px 5px 5px #888;
+  box-shadow: 0px 0px 5px 10px #f3f5f8;
+  background: #ffff;
             
     }
  .download_install h2 {
@@ -67,11 +86,12 @@ p{
   /* =====APP CSS END ====*/   
 
   /* =====HOW IT WORKS CSS START ====*/ 
-  .fa-quote-left:before {
-      
-        margin-left: px;
-    }
-
+  .loves-people {
+    background-image: url(./img/mike\ Wave\ Shape.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
     .person-content h3 {
         font-size: 27px;
     }
@@ -79,17 +99,19 @@ p{
         font-size: 16px;
         color: #c0c9d3;
     }
-    i.fas.fa-arrow-left.fa-2x.slick-arrow {
+    i.fas.fa-arrow-left.slick-arrow {
         position: absolute;
         bottom: -84px;
         right: 36%;
         color: #2186eb;
+        /* font-size: 20px; */
     }
-    i.fas.fa-arrow-right.fa-2x.slick-arrow {
+    i.fas.fa-arrow-right.slick-arrow {
         position: absolute;
         bottom: -84px;
-        left: 79%;
+        left: 70%;
         color: #2186eb;
+        /* font-size: 20px; */
     }
     
    /* =====HOW IT WORKS CSS END ====*/ 
@@ -126,14 +148,39 @@ img.img-absolute {
 
 /* =====VIDEO CSS CSS START ====*/ 
 
+/* =====TESTIMONIAL CSS CSS START ====*/ 
+
+
+i.fas.fa-arrow-left.fa-2x.slick-arrow {
+    position: absolute;
+    bottom: -84px;
+    right: 36%;
+    color: #2186eb;
+    font-size: 20px;
+}
+.device-slider{
+    background: #eceef0;
+    /* overflow-y: hidden; */
+}
+/* =====TESTIMONIAL CSS CSS END ====*/ 
+
+/* =====FREEQUENTLY ASKED QUESTION START ====*/ 
+    .frequently-asked{
+        background-image: url(./img/mike\ Wave\ Shape.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+/* =====FREEQUENTLY ASKED QUESTION START ====*/ 
+
  /* =====SMARTPHONE CSS START ====*/ 
+ 
     .smartphone{
            background-image: url(./img/app-landing-page-psd\ \(2\).png);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            padding: 100px 0;
-            
+            padding: 100px 0;   
     }
     
     .form-input {
@@ -165,8 +212,9 @@ img.img-absolute {
     i.fas.fa-paper-plane.fa-2x.text-primary {
         position: absolute;
         top: 11px;
-        left: 361px;
+        left: 370px;
         z-index: 222;
+        font-size: 20px;
     }
     
     .future-content h4 {
