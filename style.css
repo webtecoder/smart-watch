@@ -2,7 +2,7 @@
  *{
          box-sizing: border-box;
          font-family: 'Roboto', sans-serif;
-         /* overflow-x: hidden; */
+         overflow-x: hidden;
  }
 ul{
         margin: 0;
@@ -165,13 +165,37 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
 /* =====TESTIMONIAL CSS CSS END ====*/ 
 
 /* =====FREEQUENTLY ASKED QUESTION START ====*/ 
+
+.accordion-button::after {
+    background-image: url(./img/right-angle.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./img/right-angle.png);
+    transform: rotate(90deg);
+}
     .frequently-asked{
         background-image: url(./img/mike\ Wave\ Shape.png);
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
     }
-/* =====FREEQUENTLY ASKED QUESTION START ====*/ 
+    button.accordion-button.text-dark.collapsed {
+        color: #627D98!important;
+        background-color: #eff1f3!important;
+        /* box-shadow: 5px 5px 10px #eff1f3; */
+    }
+    .accordion-button:not(.collapsed) {
+        color: #2186EB!important;
+        background-color: #eff1f3!important;
+    }
+    .accordion-body {
+        background: #ffff;
+    }
+    .accordion-button {
+        border: unset!important;
+    }
+/* =====FREEQUENTLY ASKED QUESTION EBD ====*/ 
 
  /* =====SMARTPHONE CSS START ====*/ 
  
@@ -299,21 +323,18 @@ hr:not([size]) {
 }
 .plane-icon {
     position: absolute;
-    top: 19px;
-    left: 14px;
+    top: 13px;
+    left: 9px;
 }
 /* CONTACT US STYLE END */
 
 
-/* FREEQUENTLY ASKED STYLE START */
-.accordion-button::after {
-    background-image: url(./img/right-angle.png);
+/* Latest post STYLE START */
+.latest-post{
+    background-image: url(./img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50px -78px;
 }
+/* Latest post STYLE END */
 
-
-/* FREEQUENTLY ASKED STYLE END */
-
-.accordion-button:not(.collapsed)::after {
-    background-image: url(./img/right-angle.png);
-    transform: rotate(90deg);
-}
