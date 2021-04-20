@@ -1,11 +1,16 @@
 
 @media only screen and (max-width: 1200px) {
-    
+    i.fas.fa-paper-plane.fa-2x.text-primary {
+        left: 312px;
+    }
   }
 
   @media only screen and (max-width: 991px) {
     .brand-btn {
         text-align: center;
+    }
+    i.fas.fa-paper-plane.fa-2x.text-primary {
+        left: 232px;
     }
 }
 
@@ -13,8 +18,34 @@
     .social-footer {
         text-align: center;
     }
+    i.fas.fa-paper-plane.fa-2x.text-primary {
+        left: 175px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
-    
+    #button-addon2 {
+        position: unset;
+        top: 152%;
+        right: 33%;
+        margin-top: 15px;
+        background: #fff;
+        color: #29A5E8!important;
+    }
+    #button-addon2:hover {
+        background-color:#29A5E8 ;
+        color: #ffff!important;
+    }
+    i.fas.fa-paper-plane.fa-2x.text-primary {
+        display: none;
+    }
 }
+
+@media only screen and (max-width: 370px) {
+    .information.text-center {
+        text-align: left !important;
+    }
+}
+
+
+
