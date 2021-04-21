@@ -2,7 +2,8 @@
  *{
          box-sizing: border-box;
          font-family: 'Roboto', sans-serif;
-         overflow-x: hidden;
+        
+         
  }
 ul{
         margin: 0;
@@ -54,6 +55,13 @@ p{
     .watch-content h1 {
         color: #fff;
         padding: 20px 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: unset;
+        border: unset;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
     }
  /* =====HEADER CSS END ====*/   
 
@@ -192,6 +200,7 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
     .accordion-body {
         background: #ffff;
         color: #627D98;
+        font-weight: 400;
     }
     .accordion-button {
         border: unset!important;
