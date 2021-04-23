@@ -1,11 +1,12 @@
 
 
+
 $('.slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-   
+    centerPadding: '0px',
     centerMode: true,
     prevArrow:'<i class="fas fa-arrow-left"></i>',
     nextArrow:'<i class="fas fa-arrow-right"></i>',
@@ -59,4 +60,6 @@ $('.slider').slick({
     $('html, body').animate({
       scrollTop: 0
     },500)
+  
   });
+ 
