@@ -346,3 +346,18 @@ hr:not([size]) {
 }
 /* Latest post STYLE END */
 
+/* SCROLL TO TOP CSS */
+a.scroll-show {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: black;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+

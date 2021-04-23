@@ -5,17 +5,16 @@ $('.slider').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    centerPadding: '0px',
+   
     centerMode: true,
     prevArrow:'<i class="fas fa-arrow-left"></i>',
-   
     nextArrow:'<i class="fas fa-arrow-right"></i>',
   });
   
   // start new section
   $('.device-slider').slick({
-      centerMode: true,
-  //   centerPadding: '60px',
+    centerMode: true,
+    centerPadding: '0px',
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
@@ -42,4 +41,22 @@ $('.slider').slick({
         }
       }
     ]
+  });
+
+
+
+  // scroll to top js
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 200){
+      $('#scroll').addClass('scroll-show');
+    }
+    else{
+      $('#scroll').removeClass('scroll-show');
+    }
+  })
+
+  $('#scroll').click(function(){
+    $('html, body').animate({
+      scrollTop: 0
+    },500)
   });
