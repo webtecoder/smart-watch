@@ -1,18 +1,19 @@
  /* =====COMMON CSS ====*/
  *{
          box-sizing: border-box;
-         font-family: 'Roboto', sans-serif;
-        overflow-x:hidden;
-         
+         font-family: 'Roboto', sans-serif; 
  }
+
 ul{
         margin: 0;
         padding: 0;
 }
+
 ul li {
         list-style: none;
         display: inline-block;
 }
+
 ul li a{
         text-decoration: none;
 }
@@ -63,6 +64,7 @@ p{
     .navbar-light .navbar-toggler {
         border-color: transparent;
     }
+    
  /* =====HEADER CSS END ====*/   
 
 /* =====APP CSS START ====*/ 
@@ -119,7 +121,6 @@ p{
         bottom: -84px;
         left: 70%;
         color: #2186eb;
-        /* font-size: 20px; */
     }
     
    /* =====HOW IT WORKS CSS END ====*/ 
@@ -139,26 +140,16 @@ img.img-absolute {
 .col-md-10.video-player {
     position: relative;
 }
-/* .video-player:hover .overlay{
-    display: block;
-}
-.overlay {
-    position: absolute;
-    background: #2286eb;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.8;
-    display: none;
-    
-} */
 
-/* =====VIDEO CSS CSS START ====*/ 
+/* =====VIDEO CSS CSS END ====*/ 
 
 /* =====TESTIMONIAL CSS CSS START ====*/ 
-
-
+section.look-how {
+    overflow-x: hidden;
+}
+.slick-active{
+    opacity: 0.2;
+}
 i.fas.fa-arrow-left.fa-2x.slick-arrow {
     position: absolute;
     bottom: -84px;
@@ -168,7 +159,6 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
 }
 .device-slider{
     background: #eceef0;
-    /* overflow-y: hidden; */
 }
 .slick-dots
 { 
@@ -200,7 +190,6 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
     button.accordion-button.text-dark.collapsed {
         color: #627D98!important;
         background-color: #eff1f3!important;
-        /* box-shadow: 5px 5px 10px #eff1f3; */
     }
     .accordion-button:not(.collapsed) {
         color: #2186EB!important;

@@ -21,6 +21,15 @@
     i.fas.fa-paper-plane.fa-2x.text-primary {
         left: 175px;
     }
+    #navbarSupportedContent {
+        background: #fff;
+        z-index: 999;
+        color: rgb(78, 78, 87)!important;
+      }
+      .navbar-light .navbar-nav .nav-link {
+        color: #29A5E8!important;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 576px) {

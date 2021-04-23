@@ -5,7 +5,10 @@ $('.slider').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    centerPadding: '0px',
+    centerMode: true,
     prevArrow:'<i class="fas fa-arrow-left"></i>',
+   
     nextArrow:'<i class="fas fa-arrow-right"></i>',
   });
   
