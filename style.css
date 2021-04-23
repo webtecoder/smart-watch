@@ -46,6 +46,58 @@ p{
     top: 0;
     left: 0;
 } */
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: 0.9;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  span.bars {
+    display: none;
+    font-size: 30px;
+}
 /* =====HEADER CSS START ====*/
  .header {
   --triangle-height: 200px; /* you can change this */
@@ -157,9 +209,10 @@ img.img-absolute {
 section.look-how {
     overflow-x: hidden;
 }
-/* .slick-active{
-    opacity: 0.2;
-} */
+.works-header.looks-header.text-center {
+    margin-bottom: 100px;
+}
+
 i.fas.fa-arrow-left.fa-2x.slick-arrow {
     position: absolute;
     bottom: -84px;
@@ -169,6 +222,21 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
 }
 .device-slider{
     background: #eceef0;
+}
+.slick-slide{
+    opacity: 0.5;
+   
+}
+.slick-active{
+    color: #2186eb!important;
+}
+.slick-slide.slick-current.slick-active.slick-center{
+    opacity: 1;
+}
+.slick-dots li button::before{
+    font-size: 15px!important;
+    color: ;
+
 }
 /* .slick-dots
 { 
@@ -198,11 +266,13 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
     }
     button.accordion-button.text-dark.collapsed {
         color: #627D98!important;
-        background-color: #eff1f3!important;
+        background-color: #ffff!important;
+        border-radius: 6px;
+        box-shadow: 0px 1px 5px 1px grey;
     }
     .accordion-button:not(.collapsed) {
         color: #2186EB!important;
-        background-color: #eff1f3!important;
+        background-color: #ffff!important;
     }
     .accordion-body {
         background: #ffff;
@@ -212,6 +282,7 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
     .accordion-button {
         border: unset!important;
     }
+    
 /* =====FREEQUENTLY ASKED QUESTION EBD ====*/ 
 
  /* =====SMARTPHONE CSS START ====*/ 
@@ -228,7 +299,7 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
         position: relative;
     }
     .form-control {
-        padding: 10px 30px;
+        padding: 10px 40px;
         background-color: #fff;
         border: 1px solid #ced4da;
         border-radius: 60px;
