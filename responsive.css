@@ -40,6 +40,9 @@
     .works-header.looks-header.text-center {
         margin-bottom: 60px;
     }
+    .me-5.list-margin {
+        margin-right: 17px !important;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -61,6 +64,7 @@
     .works-header.looks-header.text-center {
         margin-bottom: 40px;
     }
+    
 }
 
 @media only screen and (max-width: 370px) {
