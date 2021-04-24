@@ -205,7 +205,7 @@ img.img-absolute {
 
 /* =====VIDEO CSS CSS END ====*/ 
 
-/* =====TESTIMONIAL CSS CSS START ====*/ 
+/* =====TESTIMONIAL CSS START ====*/ 
 section.look-how {
     overflow-x: hidden;
 }
@@ -218,7 +218,20 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
     bottom: -84px;
     right: 36%;
     color: #2186eb;
-    font-size: 20px;
+    font-size: 36px;
+}
+.fa-quote-left:before {
+    margin-right: -42px;
+    position: absolute;
+    top: 13px;
+    left: -12px;
+    z-index: 9999;
+    font-size: 30px;
+}
+.quotation {
+    position: relative;
+    margin-left: 18px;
+    padding: 20px;
 }
 .device-slider{
     background: #eceef0;
