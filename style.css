@@ -235,8 +235,12 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
 }
 .slick-dots li button::before{
     font-size: 15px!important;
-    color: ;
-
+    color: #BCCCDC;
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before
+{
+    color:#2186EB!important;
 }
 /* .slick-dots
 { 
