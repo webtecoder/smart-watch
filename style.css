@@ -242,6 +242,13 @@ i.fas.fa-arrow-left.fa-2x.slick-arrow {
 {
     color:#2186EB!important;
 }
+.my-auto {
+    margin-top: 50px!important;
+    margin-bottom: auto!important;
+}
+.person-content {
+    margin-top: -15px;
+}
 /* .slick-dots
 { 
     bottom: 0;

@@ -12,7 +12,7 @@
     i.fas.fa-paper-plane.fa-2x.text-primary {
         left: 232px;
     }
-}
+
 
 @media only screen and (max-width: 768px) {
     .social-footer {
@@ -34,6 +34,12 @@
         display: block;
         color: white;
     }
+    .watch-content h1 {
+        font-size: 35px;
+    }
+    .works-header.looks-header.text-center {
+        margin-bottom: 60px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -51,6 +57,9 @@
     }
     i.fas.fa-paper-plane.fa-2x.text-primary {
         display: none;
+    }
+    .works-header.looks-header.text-center {
+        margin-bottom: 40px;
     }
 }
 
